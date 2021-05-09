@@ -4,8 +4,8 @@ class CarsController < ApplicationController
   # GET /cars
   def index
     @cars = Car.all
-
-    render json: @cars
+    
+    render json: @cars.to_json(except: [:created_at, :updated_at], include: {origin: {only: [:name]}})
   end
 
   # GET /cars/1
