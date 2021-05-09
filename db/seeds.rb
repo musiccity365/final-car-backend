@@ -18,5 +18,6 @@ Car.create([
   {make: 'Ford', model: 'Mustang', color: 'black', year: '1986', origin: domestic},
   {make: 'Audi', model: 'TT', color: 'red', year: '2000', origin: import},
   {make: 'VW', model: 'Passat', color: 'green', year: '2000', origin: import},
-  {make: 'Jeep', model: 'Laredo', color: 'beige', year: '2005', origin: domestic}
+  {make: 'Jeep', model: 'Laredo', color: 'beige', year: '2005', origin: domestic},
+  {make: 'Buick', model: 'Laredo', color: 'beige', year: '2005', origin: domestic}
 ])
