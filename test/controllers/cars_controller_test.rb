@@ -12,7 +12,7 @@ class CarsControllerTest < ActionDispatch::IntegrationTest
 
   test "should create car" do
     assert_difference('Car.count') do
-      post cars_url, params: { car: { color: @car.color, make: @car.make, model: @car.model, origin_id: @car.origin_id, year: @car.year } }, as: :json
+      post cars_url, params: { car: { belongs_to: @car.belongs_to, color: @car.color, make: @car.make, model: @car.model, year: @car.year } }, as: :json
     end
 
     assert_response 201
@@ -24,7 +24,7 @@ class CarsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update car" do
-    patch car_url(@car), params: { car: { color: @car.color, make: @car.make, model: @car.model, origin_id: @car.origin_id, year: @car.year } }, as: :json
+    patch car_url(@car), params: { car: { belongs_to: @car.belongs_to, color: @car.color, make: @car.make, model: @car.model, year: @car.year } }, as: :json
     assert_response 200
   end
 
