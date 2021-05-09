@@ -1,0 +1,23 @@
+-------------------- Auto-Git Log --------------------
+		Sun May 09 2021 15:54:27 GMT-0400 (Eastern Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* app/controllers/cars_controller.rb
+* app/models/car.rb
+* app/models/origin.rb
+* db/seeds.rb
+* test/controllers/cars_controller_test.rb
+* test/fixtures/cars.yml
+
+
+Created files:
+* .autogit/logs/log-9-4-2021-15-24-17.txt
+
+
+Deleted files:
+
+
+Renamed files:
+* [object Object]
+* [object Object]
