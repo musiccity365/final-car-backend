@@ -1,15 +1,15 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  belongs_to: 
   make: MyString
   model: MyString
   color: MyString
   year: 1
+  origin_id: 1
 
 two:
-  belongs_to: 
   make: MyString
   model: MyString
   color: MyString
   year: 1
+  origin_id: 1
