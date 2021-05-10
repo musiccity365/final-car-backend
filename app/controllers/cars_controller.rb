@@ -12,7 +12,7 @@ class CarsController < ApplicationController
   def show
     render json: @car
   end
-
+  
   # POST /cars
   def create
     @car = Car.new(car_params)
